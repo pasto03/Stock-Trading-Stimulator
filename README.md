@@ -1,5 +1,5 @@
 # Stock-Trading-Stimulator
-a academic-level trading bot try to find optimized solution on stock trading
+An academic-level trading bot try to find optimized solution on stock trading
 
 &nbsp;
 # V0
