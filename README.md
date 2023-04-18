@@ -74,6 +74,7 @@ If the selling price is lower than the holding average price, resulting in a los
 1. When the user chooses to buy while having insufficient funds, the following punishment will be given:
 
     $\large reward = -1 \cdot \frac{x_n - hold\_mean}{hold\_mean} \cdot user\_stocks$
+    
     Where the greater the number of stocks the user holds, the greater the punishment.
 
 2. When the user chooses to sell stocks while not having enough, the following punishment will be given:
