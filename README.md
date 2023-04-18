@@ -79,7 +79,9 @@ If the selling price is lower than the holding average price, resulting in a los
 2. When the user chooses to sell stocks while not having enough, the following punishment will be given:
 
     $\large reward = -1 \cdot cll_n \cdot \frac{in\_ratio \cdot fund}{x_n}$
+    
     $in_ratio$ represents the ratio of funds available to the agent for purchasing stocks, within the range of [0.1, 0.9].
+    
     $fund$ represents the amount of funds currently held by the user.
 
 3. When the user chooses to hold stocks, there are two punishment conditions:
@@ -87,7 +89,9 @@ If the selling price is lower than the holding average price, resulting in a los
     1. If the user has holdings, and the average stock price of the holdings is lower than the current price, the greater the punishment, the lower the average holding price.
 
         The punishment formula: $\large reward = -1 \cdot \frac{x_n - hold\_mean}{hold\_mean} \cdot user\_stocks$
+        
         $hold\_mean$ represents the current average stock price of the holdings.
+        
         $user\_stocks$ represents the number of stocks held by the user.
 
     2. If the user is able to purchase stocks and the current stock price is lower, but the user chooses not to operate, the greater the punishment, the lower the stock price.
