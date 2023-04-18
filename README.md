@@ -1,6 +1,9 @@
 # Stock-Trading-Stimulator
 An academic-level trading bot try to find optimized solution on stock trading
 
+## Models built:
+- <a href='https://github.com/pasto03/Stock-Trading-Stimulator#v0'>V0</a>
+
 &nbsp;
 # V0
 Model V0 is build using simplest algorithm. Only 3 params included: 
