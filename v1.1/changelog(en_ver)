@@ -30,4 +30,7 @@ Model Evaluation:
 
 
 Conclusion:
-In fact, the performance of this version is much worse than the other two, and its stability has also significantly declined. I believe this is due to the way rewards are calculated in the simulation environment. We must find an appropriate method for calculating rewards in order to truly improve the effectiveness of the agent. Therefore, our focus should be on finding an effective approach for calculating rewards in order to enter the v2 era of this model.
+In fact, the performance of this version is much worse than the other two, and its stability has also significantly declined. 
+I believe this is due to the way rewards are calculated in the simulation environment. 
+We must find an appropriate method for calculating rewards in order to truly improve the effectiveness of the agent. 
+Therefore, our focus should be on finding an effective approach for calculating rewards in order to enter the v2 era of this model.
