@@ -11,22 +11,9 @@ A baby-level trading bot try to find optimized solution on stock trading
 Model V0 is build using simplest algorithm. Only 3 params included: 
 `action_probs = np.ones(env.action_dim) / env.action_dim`
 
-## Outputs
-### Example output of trading bot
-<img src='v0\image outputs\trading_bot.png' alt='Trading bot output image'>
-
-<i>Trading bot output</i>
-
-&nbsp;
-
-### Example output in evaluation
-<img src='v0\image outputs\evaluation_result.png' alt='Evaluation result'>
-
-<i>Evaluation result with 100 evals</i>
-
-
 # V1
 Model V1 is built using the simplest reinforcement learning algorithm: `Deep Q-Network`.
+
 A simple multilayer perceptron and a simple DQN agent is chosen to build this model.
 
 # V1.1
