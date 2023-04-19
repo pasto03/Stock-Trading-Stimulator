@@ -4,7 +4,7 @@ A baby-level trading bot try to find optimized solution on stock trading
 ## Available models:
 - <a href="https://github.com/pasto03/Stock-Trading-Stimulator#v0">V0</a>
 - <a href="https://github.com/pasto03/Stock-Trading-Stimulator#v1">V1</a>
-- <a href="https://github.com/pasto03/Stock-Trading-Stimulator/blob/main/README.md#v11">V1.1</a>
+- <a href="https://github.com/pasto03/Stock-Trading-Stimulator#v11">V1.1</a>
 
 &nbsp;
 # V0
