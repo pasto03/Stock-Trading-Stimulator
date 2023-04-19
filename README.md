@@ -69,7 +69,6 @@ If the selling price is lower than the holding average price, resulting in a los
 - A simple multilayer perceptron and a simple DQN agent is chosen to build this model.
 
 ### Reward mechanism in environment changes as below:
-&nbsp;
 
 1. When the user chooses to buy while having insufficient funds, the following punishment will be given:
 
@@ -99,3 +98,6 @@ If the selling price is lower than the holding average price, resulting in a los
     
         The punishment formula: $\large reward = -1 \cdot cll_n \cdot \frac{in\_ratio \cdot fund}{x_n}$
 
+
+# V1.1
+<a href="https://github.com/pasto03/Stock-Trading-Stimulator/blob/main/v1.1/changelog(en_ver)">View changelog</a>
