@@ -17,4 +17,25 @@ Model V1 is built using the simplest reinforcement learning algorithm: `Deep Q-N
 A simple multilayer perceptron and a simple DQN agent is chosen to build this model.
 
 # V1.1
+Environment modified. Reward calculation changed.
+
 <a href="https://github.com/pasto03/Stock-Trading-Stimulator/blob/main/v1.1/changelog(en_ver)">View changelog</a>
+
+
+## Example of Outupts
+
+<img src="v1.1\image outputs\trading_bot-v1.1.png" alt="trading bot output">
+
+<i>v1.1 trading bot output</i>
+
+&nbsp;
+
+<img src="v1.1\image outputs\grid_search_result-v1.1.png" alt="grid search output">
+
+<i>v1.1 grid search output</i>
+
+&nbsp;
+
+<img src="v1.1\image outputs\evaluation_result-v1.1.png" alt="evaluation output">
+
+<i>v1.1 evaluation output</i>
