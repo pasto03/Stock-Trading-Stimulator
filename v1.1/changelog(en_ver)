@@ -25,7 +25,7 @@ Model Training:
 
 Model Evaluation:
 - Changes:
-.1 A method called `agent_grid_search` was defined to attempt to find the optimal num_episodes.
+1. A method called `agent_grid_search` was defined to attempt to find the optimal num_episodes.
 
 
 
