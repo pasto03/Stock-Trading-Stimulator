@@ -1,0 +1,33 @@
+(This file is a translated version from cn_ver)
+Version 1.1 is a set of changes made to the v1 version, which include the following:
+
+Simulation Environment:
+- Changes:
+1. The state returned by the environment changed from the current day to `[available funds, current holdings]`.
+2. The reset function now resets the available funds and returns the new value.
+3. Choosing to hold a position will no longer result in any penalty -> reward = 0.
+4. A new function called `compare_and_count` was introduced to replace `softmin` and `softmax`.
+
+- Summary:
+1. The reward for buying and selling actions now directly affects the model's performance.
+2. The approach used to calculate the reward is more important than the actual implementation of the function.
+
+
+Model and Agent:
+- Changes:
+1. Adjustments were made to accommodate the state returned by the simulation environment.
+
+
+Model Training:
+- Changes:
+1. A method called `pretrained_trading_agent` was defined to pretrain the agent before application.
+
+
+Model Evaluation:
+- Changes:
+.1 A method called `agent_grid_search` was defined to attempt to find the optimal num_episodes.
+
+
+
+Conclusion:
+In fact, the performance of this version is much worse than the other two, and its stability has also significantly declined. I believe this is due to the way rewards are calculated in the simulation environment. We must find an appropriate method for calculating rewards in order to truly improve the effectiveness of the agent. Therefore, our focus should be on finding an effective approach for calculating rewards in order to enter the v2 era of this model.
